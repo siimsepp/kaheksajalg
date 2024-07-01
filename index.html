@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kaheksajalg valib jalkamängu võitja</title>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card card-shadow">
+        <div class="container">
+          <div class="row">
+            <input type="text" class="riik" id="home-team" placeholder="kodumeeskond" />
+            <input type="text" class="riik" id="away-team" placeholder="külalismeeskond" />
+          </div>
+          <div class="row">
+            <input type="text" class="odds" id="home-odds" />
+            <input type="text" class="odds" id="draw-odds" />
+            <input type="text" class="odds" id="away-odds" />
+          </div>
+          <span id="error" class="error">error</span>
+          <button class="btn btn-shadow" id="nupp">Võitja</button>
+          <span id="result" class="result">Võitja</span>
+          <span id="selgitus" class="selgitus">
+            Sisesta kodu- ja külalismeeskonna nimed ning kodumeeskonna, viigi ning külalismeeskonna võidukoefitsiendid.
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
